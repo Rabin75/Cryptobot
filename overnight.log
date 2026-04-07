@@ -1,0 +1,315 @@
+[2026-04-06T13:12:28.527532+00:00] Paper bot started: symbols=['BTC/USDT', 'ETH/USDT', 'SOL/USDT'], market=spot, per_symbol_equity=33.33
+[2026-04-06T13:12:30.446838+00:00] QUOTES binance:BTC/USDT=69431.4800 | binance:ETH/USDT=2145.8900 | binance:SOL/USDT=82.3100 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[1775481000000] BTC/USDT CLOSE reason=resistance price=69431.4900 pnl=-0.5889 equity=3327.42 S=69329.2300 R=69717.6500
+[1775481000000] ETH/USDT CLOSE reason=resistance price=2145.8900 pnl=-0.0702 equity=3327.94 S=2142.0000 R=2154.5200
+[1775481000000] SOL/USDT CLOSE reason=resistance price=82.3100 pnl=-0.3429 equity=3327.41 S=82.2100 R=82.5300
+[2026-04-06T13:13:01.423070+00:00] QUOTES binance:BTC/USDT=69427.8300 | binance:ETH/USDT=2145.7500 | binance:SOL/USDT=82.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[1775481000000] BTC/USDT OPEN signal=LONG_ENTRY qty=0.000096 price=69427.8200 equity=3326.75 S=69329.2300 R=69717.6500
+[1775481000000] ETH/USDT OPEN signal=LONG_ENTRY qty=0.003107 price=2145.7500 equity=3327.27 S=2142.0000 R=2154.5200
+[1775481000000] SOL/USDT OPEN signal=LONG_ENTRY qty=0.081004 price=82.3000 equity=3326.75 S=82.2100 R=82.5300
+[2026-04-06T13:13:32.188298+00:00] QUOTES binance:BTC/USDT=69424.0100 | binance:ETH/USDT=2145.7400 | binance:SOL/USDT=82.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[1775481000000] BTC/USDT CLOSE reason=resistance price=69424.0000 pnl=-0.0070 equity=3326.75 S=69329.2300 R=69717.6500
+[1775481000000] ETH/USDT CLOSE reason=resistance price=2145.7400 pnl=-0.0067 equity=3327.27 S=2142.0000 R=2154.520[2026-04-06T13:13:58.776853+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | c[2026-04-06T13:14:02.968866+00:00] QUOTES binance:BTC/USDT=69413.9900 | binance:ETH/USDT=2145.5300 | binance:SOL/USDT=82.2900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloombe[2026-04-06T13:14:29.408811+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:14:29.608038+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:15:00.020763+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:15:00.232956+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:15:30.647783+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:15:30.852134+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:16:01.269485+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:16:01.475826+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:16:31.937073+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:16:32.133793+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:17:04.698049+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:17:04.907958+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:17:35.337395+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:17:35.546762+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:18:05.973892+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:18:06.172863+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:21:42.515318+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:21:42.725111+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T13:34:51.642424+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T13:34:51.853921+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T14:07:19.160022+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T14:07:19.361434+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T14:40:43.071268+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T14:40:43.274376+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T15:13:56.561892+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T15:17:27.550508+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T15:17:57.966257+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T15:17:58.165646+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T15:51:08.888729+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T15:51:09.100048+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T16:22:36.372987+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T16:22:36.574426+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T16:56:09.393991+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T16:56:09.596860+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T18:03:19.473683+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T18:03:19.677719+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T18:03:50.082125+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T18:03:50.293422+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T18:04:20.720067+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T18:21:41.473081+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T19:10:17.729819+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T19:10:17.934784+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T19:42:39.812858+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T19:42:40.018556+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T20:21:11.625643+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T20:21:11.834676+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T20:38:47.446620+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T20:38:47.646942+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T21:11:42.186625+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T21:11:42.389665+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T21:29:29.978703+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T21:29:30.181026+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T21:35:18.327538+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T21:35:18.529085+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T22:02:01.330091+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T22:02:01.533425+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T22:35:38.245522+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T22:35:38.456150+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T23:03:12.145795+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T23:03:12.353076+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-06T23:38:05.872878+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-06T23:38:06.081723+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T00:04:04.638952+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T00:04:04.844356+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T00:51:53.192616+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T00:51:53.394549+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T01:21:44.569694+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T01:21:44.780072+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T01:54:21.581486+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T01:54:21.791818+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T01:54:52.234623+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T01:54:52.434669+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T02:37:09.117653+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T02:37:09.322116+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T03:03:04.097429+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T03:03:04.305686+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T03:03:34.794396+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T03:03:35.004274+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T03:07:09.960451+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T03:07:10.172228+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T03:07:40.598649+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T03:07:40.807680+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T04:08:00.489426+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T04:08:00.701380+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T04:08:31.137590+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T04:08:31.346137+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T04:19:08.444388+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T04:19:08.649503+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T04:36:57.743378+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T04:36:57.952981+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T04:37:28.383249+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T04:37:28.592767+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T05:09:03.454015+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T05:09:03.666017+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T05:26:48.309145+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T05:26:48.510805+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:10:08.767932+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:10:08.969445+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:10:39.409051+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:10:39.609882+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:11:10.036455+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:11:10.240943+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:11:40.646945+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:11:40.845632+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:12:11.261579+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:12:11.472210+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:17:44.981245+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:17:45.182968+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:18:15.613266+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:20:50.037839+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:21:27.814074+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:21:28.017447+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:37:11.537084+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:37:11.740911+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:37:42.163632+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:37:42.367161+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:58:23.760094+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:58:23.966872+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:58:54.400372+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:58:54.603815+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T06:59:50.446164+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T06:59:50.655441+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T07:06:57.556586+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T07:06:57.762681+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T07:17:11.886991+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T07:17:12.086651+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T07:21:21.611638+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T07:21:21.812458+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T07:31:34.182993+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T07:31:34.391051+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T07:39:37.193431+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T07:39:37.402299+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:10:02.632794+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:10:02.784855+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:26:32.493141+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:26:32.702862+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:27:03.125599+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:27:03.335390+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:27:33.767208+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:27:33.970237+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:28:04.395777+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:28:04.599054+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:28:35.037921+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:28:35.248418+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:30:40.425736+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:30:40.631900+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:33:36.502710+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:33:36.708329+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:34:07.141010+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:34:07.345193+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:44:50.898675+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:44:51.106663+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T08:59:29.598458+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T08:59:29.807235+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T09:05:58.220946+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T09:08:28.325533+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T09:09:21.702341+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T09:09:21.912303+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T09:12:55.480503+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T09:12:55.683474+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T09:36:48.490680+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T09:36:48.700008+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T10:09:38.696135+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T10:09:38.828604+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T10:31:48.606295+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T10:31:48.815524+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T10:57:05.307293+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T10:57:05.515750+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:12:31.996687+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:12:32.198967+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:13:02.644582+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:13:02.849247+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:13:33.279616+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:13:33.504184+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:14:03.928111+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:14:04.132426+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:14:34.559963+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:14:34.754621+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:15:05.180260+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:15:05.380626+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:15:35.812241+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:15:36.013344+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:16:06.436632+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:16:06.634953+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:16:37.061068+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:16:37.264387+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:17:07.691266+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:17:07.895452+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:17:38.312597+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:17:38.516575+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:18:08.933020+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:18:09.152357+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:18:39.568756+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:18:39.772065+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:19:10.188934+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:19:10.390680+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:19:40.806894+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:19:41.008479+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:20:11.424322+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:20:11.627104+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:20:42.042340+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:20:42.247151+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:21:12.667054+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:21:12.867991+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:21:43.289127+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:21:43.494242+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:22:13.912807+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:22:14.117377+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:22:44.548473+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:22:44.739794+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:23:15.159663+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:23:15.362930+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:23:45.779217+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:23:45.982236+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:24:16.389201+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:24:16.593921+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:24:47.015898+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:24:47.217779+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:25:17.647460+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:25:17.847288+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:25:48.263894+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:25:48.469617+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:26:18.884708+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:26:19.090104+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:26:49.515353+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:26:49.719278+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:27:20.132328+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:27:20.335896+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:27:50.738216+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:27:50.943871+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:28:21.355245+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:28:21.558922+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:28:51.975456+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:28:52.180826+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:29:22.593524+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:29:22.798306+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:29:53.215519+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:29:53.415935+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:30:23.834705+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:30:24.039649+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:30:54.457898+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:30:54.661685+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:31:25.072262+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:31:25.275174+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:31:55.695846+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:31:55.896856+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:32:26.317163+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:32:26.520592+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:32:56.941480+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:32:57.139743+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:33:27.557206+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:33:27.762768+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:33:58.177715+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:33:58.382735+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:34:28.801099+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:34:29.002485+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:34:59.438473+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:34:59.643767+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:35:30.064710+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:35:30.271032+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:36:00.683272+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:36:00.886116+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:35:31.958693+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:35:32.167164+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+[2026-04-07T11:36:02.578731+00:00] QUOTES binance:BTC/USDT=n/a | binance:ETH/USDT=n/a | binance:SOL/USDT=n/a | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:36:02.784114+00:00] Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+binance:BTC/USDT=68365.3000 | binance:ETH/USDT=2091.0700 | binance:SOL/USDT=79.4400 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:17:20.921620+00:00] QUOTES binance:BTC/USDT=68351.7800 | binance:ETH/USDT=2089.9400 | binance:SOL/USDT=79.4000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:17:51.790418+00:00] QUOTES binance:BTC/USDT=68374.4000 | binance:ETH/USDT=2090.4200 | binance:SOL/USDT=79.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:18:22.651254+00:00] QUOTES binance:BTC/USDT=68354.9600 | binance:ETH/USDT=2090.2500 | binance:SOL/USDT=79.2400 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:18:53.934669+00:00] QUOTES binance:BTC/USDT=68358.1800 | binance:ETH/USDT=2089.9300 | binance:SOL/USDT=79.1700 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:19:24.793220+00:00] QUOTES binance:BTC/USDT=68323.8200 | binance:ETH/USDT=2088.9000 | binance:SOL/USDT=79.1200 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:19:55.635878+00:00] QUOTES binance:BTC/USDT=68300.0100 | binance:ETH/USDT=2088.0100 | binance:SOL/USDT=79.0900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:20:26.422296+00:00] QUOTES binance:BTC/USDT=68262.1400 | binance:ETH/USDT=2086.8000 | binance:SOL/USDT=79.0600 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:20:57.264514+00:00] QUOTES binance:BTC/USDT=68314.2100 | binance:ETH/USDT=2088.3900 | binance:SOL/USDT=79.1500 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:21:28.142946+00:00] QUOTES binance:BTC/USDT=68282.6700 | binance:ETH/USDT=2087.0600 | binance:SOL/USDT=79.0200 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:21:59.021322+00:00] QUOTES binance:BTC/USDT=68264.2800 | binance:ETH/USDT=2086.8500 | binance:SOL/USDT=79.0000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:22:29.826476+00:00] QUOTES binance:BTC/USDT=68263.0500 | binance:ETH/USDT=2086.8400 | binance:SOL/USDT=78.9700 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:23:00.666040+00:00] QUOTES binance:BTC/USDT=68275.8500 | binance:ETH/USDT=2087.3000 | binance:SOL/USDT=78.9900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:23:31.528987+00:00] QUOTES binance:BTC/USDT=68303.7900 | binance:ETH/USDT=2087.3300 | binance:SOL/USDT=79.0100 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:24:02.358239+00:00] QUOTES binance:BTC/USDT=68306.2000 | binance:ETH/USDT=2087.6000 | binance:SOL/USDT=79.0700 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:24:33.189939+00:00] QUOTES binance:BTC/USDT=68307.8200 | binance:ETH/USDT=2087.7200 | binance:SOL/USDT=79.1300 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:25:04.124077+00:00] QUOTES binance:BTC/USDT=68297.0900 | binance:ETH/USDT=2087.5700 | binance:SOL/USDT=79.0900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:25:35.051161+00:00] QUOTES binance:BTC/USDT=68312.4200 | binance:ETH/USDT=2088.2000 | binance:SOL/USDT=79.1700 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:26:05.973745+00:00] QUOTES binance:BTC/USDT=68361.7800 | binance:ETH/USDT=2090.4000 | binance:SOL/USDT=79.2400 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:26:36.807000+00:00] QUOTES binance:BTC/USDT=68410.1100 | binance:ETH/USDT=2092.8500 | binance:SOL/USDT=79.3100 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:27:07.618060+00:00] QUOTES binance:BTC/USDT=68401.2300 | binance:ETH/USDT=2092.9100 | binance:SOL/USDT=79.3100 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:27:38.432807+00:00] QUOTES binance:BTC/USDT=68385.6600 | binance:ETH/USDT=2091.8900 | binance:SOL/USDT=79.2800 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:28:09.211900+00:00] QUOTES binance:BTC/USDT=68390.6200 | binance:ETH/USDT=2092.2100 | binance:SOL/USDT=79.2900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:28:39.976155+00:00] QUOTES binance:BTC/USDT=68394.8600 | binance:ETH/USDT=2092.3000 | binance:SOL/USDT=79.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:29:10.999767+00:00] QUOTES binance:BTC/USDT=68400.4800 | binance:ETH/USDT=2093.0400 | binance:SOL/USDT=79.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:29:41.885134+00:00] QUOTES binance:BTC/USDT=68388.0100 | binance:ETH/USDT=2092.0400 | binance:SOL/USDT=79.3000 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:30:12.678510+00:00] QUOTES binance:BTC/USDT=68363.9600 | binance:ETH/USDT=2091.2900 | binance:SOL/USDT=79.2900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:30:43.505203+00:00] QUOTES binance:BTC/USDT=68347.3400 | binance:ETH/USDT=2090.6800 | binance:SOL/USDT=79.2900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:31:14.642541+00:00] QUOTES binance:BTC/USDT=68325.3800 | binance:ETH/USDT=2089.6200 | binance:SOL/USDT=79.2800 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:31:45.573067+00:00] QUOTES binance:BTC/USDT=68341.3000 | binance:ETH/USDT=2089.8300 | binance:SOL/USDT=79.2900 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:32:16.381875+00:00] QUOTES binance:BTC/USDT=68336.6200 | binance:ETH/USDT=2089.6200 | binance:SOL/USDT=79.2500 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:32:47.199749+00:00] QUOTES binance:BTC/USDT=68300.2900 | binance:ETH/USDT=2087.7000 | binance:SOL/USDT=79.1800 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:33:17.982859+00:00] QUOTES binance:BTC/USDT=68290.1300 | binance:ETH/USDT=2087.4900 | binance:SOL/USDT=79.1600 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:33:48.819817+00:00] QUOTES binance:BTC/USDT=68287.2400 | binance:ETH/USDT=2087.0600 | binance:SOL/USDT=79.1500 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:34:19.656147+00:00] QUOTES binance:BTC/USDT=68303.2000 | binance:ETH/USDT=2088.2100 | binance:SOL/USDT=79.1700 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:34:50.466825+00:00] QUOTES binance:BTC/USDT=68323.0000 | binance:ETH/USDT=2088.1900 | binance:SOL/USDT=79.1400 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:35:21.282918+00:00] QUOTES binance:BTC/USDT=68313.2100 | binance:ETH/USDT=2088.1400 | binance:SOL/USDT=79.1200 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
+[2026-04-07T11:35:52.223781+00:00] QUOTES binance:BTC/USDT=68332.7700 | binance:ETH/USDT=2088.7500 | binance:SOL/USDT=79.1400 | coinmarketcap:BTC=n/a | coinmarketcap:ETH=n/a | coinmarketcap:SOL=n/a | bloomberg:BTC=n/a | bloomberg:ETH=n/a | bloomberg:SOL=n/a
