@@ -36,8 +36,12 @@ class BotGUI:
         self.equity_var = tk.StringVar(value=f"{self.cfg.initial_equity:.2f}")
         self.event_var = tk.StringVar(value="Not started")
         self.updated_var = tk.StringVar(value="-")
-        self.market_label_var = tk.StringVar(value="Market: spot-only")
-        self.leverage_label_var = tk.StringVar(value="Direction: long-only")
+        self.market_label_var = tk.StringVar(value=f"Market: {self.cfg.market_type}")
+        if self.cfg.market_type == "margin":
+            direction_label = f"Direction: long+short | Leverage x{self.cfg.leverage:.2f}"
+        else:
+            direction_label = "Direction: long-only | Leverage x1.00"
+        self.leverage_label_var = tk.StringVar(value=direction_label)
         self.position_var = tk.StringVar(value="No open positions")
         self.event_log: list[tuple[str, str, str]] = []
         self.pnl_snapshots: list[tuple[str, float, float, float]] = []
@@ -281,18 +285,24 @@ class BotGUI:
                 event = "HOLD"
 
                 if exec_engine.has_position():
-                    buy_price = exec_engine.position.entry_price if exec_engine.position else price
-                    change_pct = ((price - buy_price) / max(buy_price, 1e-9)) * 100
-                    should_sell_res = price >= resistance * self.cfg.sell_near_resistance_pct
-                    should_take_profit = change_pct >= self.cfg.take_profit_pct * 100
-                    should_stop_loss = change_pct <= -self.cfg.stop_loss_pct * 100
-                    if should_sell_res or should_take_profit or should_stop_loss:
-                        reason = "resistance" if should_sell_res else ("take_profit" if should_take_profit else "stop_loss")
+                    pos = exec_engine.position
+                    entry_price = pos.entry_price if pos else price
+                    move_pct = ((price - entry_price) / max(entry_price, 1e-9)) * 100
+                    if pos and pos.side == "long":
+                        should_exit_sr = price >= resistance * self.cfg.sell_near_resistance_pct
+                        should_take_profit = move_pct >= self.cfg.take_profit_pct * 100
+                        should_stop_loss = move_pct <= -self.cfg.stop_loss_pct * 100
+                    else:
+                        should_exit_sr = price <= support * (1 + self.cfg.buy_near_support_pct)
+                        should_take_profit = move_pct <= -self.cfg.take_profit_pct * 100
+                        should_stop_loss = move_pct >= self.cfg.stop_loss_pct * 100
+                    if should_exit_sr or should_take_profit or should_stop_loss:
+                        reason = "sr_exit" if should_exit_sr else ("take_profit" if should_take_profit else "stop_loss")
                         pnl = exec_engine.close_position(price, reason, ts)
                         risk.on_trade_closed(pnl)
                         event = f"CLOSE({reason}) pnl={pnl:.2f}"
                         exec_engine.save_state(self._state_path_for_symbol(symbol))
-                        self._update_status(symbol, price, "SELL", event)
+                        self._update_status(symbol, price, "CLOSE", event)
                         continue
 
                 if not exec_engine.has_position() and price <= support * (1 + self.cfg.buy_near_support_pct):
@@ -308,6 +318,25 @@ class BotGUI:
                     if opened:
                         event = f"BUY qty={qty:.6f} @support"
                         signal = "BUY"
+                    else:
+                        signal = "HOLD"
+                elif (
+                    not exec_engine.has_position()
+                    and self.cfg.market_type == "margin"
+                    and price >= resistance * self.cfg.sell_near_resistance_pct
+                ):
+                    qty = max((self.per_symbol_equity * 0.2) / max(price, 1e-9), 0.0)
+                    opened = exec_engine.open_position(
+                        side="short",
+                        qty=qty,
+                        price=price,
+                        stop_loss_pct=self.cfg.stop_loss_pct,
+                        take_profit_pct=self.cfg.take_profit_pct,
+                        trailing_stop_pct=0.0,
+                    )
+                    if opened:
+                        event = f"SHORT qty={qty:.6f} @resistance"
+                        signal = "SHORT"
                     else:
                         signal = "HOLD"
                 else:

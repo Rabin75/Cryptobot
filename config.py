@@ -2,6 +2,8 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
+SUPPORTED_MARKET_TYPES = {"spot", "margin"}
+
 
 def _load_dotenv_if_available() -> None:
     try:
@@ -32,7 +34,7 @@ class BotConfig:
     timeframe: str = "5m"
     limit: int = 200
     poll_seconds: int = 30
-    market_type: str = "spot"  # forced spot-only for S/R bot
+    market_type: str = "spot"
     initial_equity: float = 10000.0
     fee_rate: float = 0.001
     leverage: float = 3.0
@@ -53,6 +55,13 @@ class BotConfig:
     persist_path: str = "paper_state.json"
 
 
+def _parse_market_type(raw_value: str | None) -> str:
+    market_type = (raw_value or "spot").strip().lower()
+    if market_type not in SUPPORTED_MARKET_TYPES:
+        return "spot"
+    return market_type
+
+
 def load_config() -> BotConfig:
     _load_dotenv_if_available()
     symbols_raw = os.getenv("BOT_SYMBOLS", "BTC/USDT,ETH/USDT,SOL/USDT")
@@ -61,6 +70,10 @@ def load_config() -> BotConfig:
     requested_sources = [s.strip().lower() for s in sources_raw.split(",") if s.strip()]
     required_sources = {"binance", "coinmarketcap", "bloomberg"}
     data_sources = sorted(set(requested_sources) | required_sources)
+    market_type = _parse_market_type(os.getenv("BOT_MARKET_TYPE", "spot"))
+    leverage = float(os.getenv("BOT_LEVERAGE", "3"))
+    if market_type == "spot":
+        leverage = 1.0
     return BotConfig(
         symbol=os.getenv("BOT_SYMBOL", symbols[0] if symbols else "BTC/USDT"),
         symbols=symbols,
@@ -68,10 +81,10 @@ def load_config() -> BotConfig:
         timeframe=os.getenv("BOT_TIMEFRAME", "5m"),
         limit=int(os.getenv("BOT_LIMIT", "200")),
         poll_seconds=int(os.getenv("BOT_POLL_SECONDS", "30")),
-        market_type="spot",
+        market_type=market_type,
         initial_equity=float(os.getenv("BOT_INITIAL_EQUITY", "10000")),
         fee_rate=float(os.getenv("BOT_FEE_RATE", "0.001")),
-        leverage=float(os.getenv("BOT_LEVERAGE", "3")),
+        leverage=leverage,
         breakout_lookback=int(os.getenv("BOT_BREAKOUT_LOOKBACK", "20")),
         breakout_buffer_pct=float(os.getenv("BOT_BREAKOUT_BUFFER_PCT", "0.001")),
         volume_window=int(os.getenv("BOT_VOLUME_WINDOW", "20")),

@@ -95,7 +95,7 @@ def _run_dry_mode(cfg: BotConfig, client: BinanceMarketDataClient, persist: bool
 
     print(
         f"[{datetime.now(UTC).isoformat()}] Paper bot started: symbols={symbols}, "
-        f"market=spot, per_symbol_equity={per_symbol_equity:.2f}"
+        f"market={cfg.market_type}, per_symbol_equity={per_symbol_equity:.2f}"
     )
     while True:
         try:
@@ -113,14 +113,20 @@ def _run_dry_mode(cfg: BotConfig, client: BinanceMarketDataClient, persist: bool
                 event = "HOLD"
 
                 if exec_engine.has_position():
-                    buy_price = exec_engine.position.entry_price if exec_engine.position else price
-                    change_pct = ((price - buy_price) / max(buy_price, 1e-9)) * 100
-                    should_sell_res = price >= resistance * cfg.sell_near_resistance_pct
-                    should_take_profit = change_pct >= cfg.take_profit_pct * 100
-                    should_stop_loss = change_pct <= -cfg.stop_loss_pct * 100
+                    pos = exec_engine.position
+                    entry_price = pos.entry_price if pos else price
+                    move_pct = ((price - entry_price) / max(entry_price, 1e-9)) * 100
+                    if pos and pos.side == "long":
+                        should_exit_res = price >= resistance * cfg.sell_near_resistance_pct
+                        should_take_profit = move_pct >= cfg.take_profit_pct * 100
+                        should_stop_loss = move_pct <= -cfg.stop_loss_pct * 100
+                    else:
+                        should_exit_res = price <= support * (1 + cfg.buy_near_support_pct)
+                        should_take_profit = move_pct <= -cfg.take_profit_pct * 100
+                        should_stop_loss = move_pct >= cfg.stop_loss_pct * 100
 
-                    if should_sell_res or should_take_profit or should_stop_loss:
-                        reason = "resistance" if should_sell_res else ("take_profit" if should_take_profit else "stop_loss")
+                    if should_exit_res or should_take_profit or should_stop_loss:
+                        reason = "sr_exit" if should_exit_res else ("take_profit" if should_take_profit else "stop_loss")
                         pnl = exec_engine.close_position(price, reason, ts)
                         print(
                             f"[{ts}] {symbol} CLOSE reason={reason} price={price:.4f} "
@@ -148,6 +154,24 @@ def _run_dry_mode(cfg: BotConfig, client: BinanceMarketDataClient, persist: bool
                             )
                         else:
                             event = "HOLD"
+                    elif cfg.market_type == "margin" and price >= resistance * cfg.sell_near_resistance_pct:
+                        qty = max((per_symbol_equity * 0.2) / max(price, 1e-9), 0.0)
+                        opened = exec_engine.open_position(
+                            side="short",
+                            qty=qty,
+                            price=price,
+                            stop_loss_pct=cfg.stop_loss_pct,
+                            take_profit_pct=cfg.take_profit_pct,
+                            trailing_stop_pct=0.0,
+                        )
+                        if opened:
+                            event = f"SHORT qty={qty:.6f}"
+                            print(
+                                f"[{ts}] {symbol} OPEN signal=SHORT_ENTRY qty={qty:.6f} "
+                                f"price={price:.4f} equity={equity:.2f} S={support:.4f} R={resistance:.4f}"
+                            )
+                        else:
+                            event = "HOLD"
                     else:
                         print(
                             f"[{ts}] {symbol} HOLD price={price:.4f} "
@@ -164,13 +188,17 @@ def _run_dry_mode(cfg: BotConfig, client: BinanceMarketDataClient, persist: bool
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Binance breakout paper bot (spot/futures simulation).")
+    parser = argparse.ArgumentParser(description="Binance breakout paper bot (spot/margin simulation).")
     parser.add_argument("--mode", choices=["dry-run", "backtest", "live"], default="dry-run")
+    parser.add_argument("--market-type", choices=["spot", "margin"], help="Override BOT_MARKET_TYPE for this run.")
     parser.add_argument("--persist-state", action="store_true", help="Persist paper state to JSON file.")
     args = parser.parse_args()
 
     cfg = load_config()
-    cfg.market_type = "spot"
+    if args.market_type:
+        cfg.market_type = args.market_type
+        if cfg.market_type == "spot":
+            cfg.leverage = 1.0
     client = BinanceMarketDataClient()
 
     if args.mode == "backtest":

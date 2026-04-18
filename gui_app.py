@@ -60,7 +60,7 @@ def _run_one_cycle() -> None:
             st.session_state.last_df = df
             st.session_state.last_event = event
             st.session_state.last_price = price
-            st.session_state.last_signal = signal
+            st.session_state.last_signal = "CLOSE"
             st.session_state.last_ts = ts
             return
 
@@ -132,6 +132,10 @@ def main() -> None:
     st.sidebar.subheader("Controls")
     st.sidebar.write(f"Symbol: `{cfg.symbol}`")
     st.sidebar.write(f"Market: `{cfg.market_type}`")
+    if cfg.market_type == "margin":
+        st.sidebar.write(f"Leverage: `x{cfg.leverage:.2f}` (long + short)")
+    else:
+        st.sidebar.write("Leverage: `x1.00` (long only)")
     st.sidebar.write(f"Timeframe: `{cfg.timeframe}`")
     interval = st.sidebar.slider("Auto refresh (seconds)", min_value=0, max_value=120, value=0, step=5)
     run_once = st.sidebar.button("Run One Cycle")

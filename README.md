@@ -1,12 +1,13 @@
 # Binance Support/Resistance Paper Bot (Python)
 
-Paper-first Binance trading bot using a simple support/resistance strategy in spot-only mode.
+Paper-first Binance trading bot using a simple support/resistance strategy for spot and margin simulation modes.
 
 ## Modes
 
 - `dry-run`: Fetches live Binance candles and simulates trades only.
 - `backtest`: Runs strategy on fetched historical candles and prints metrics.
 - `live`: Explicitly blocked unless risk-confirmation env flag is set, and still disabled by design.
+- `market_type`: `spot` (long-only, x1 leverage) or `margin` (long + short, configurable leverage).
 
 ## Files
 
@@ -24,7 +25,8 @@ Paper-first Binance trading bot using a simple support/resistance strategy in sp
    - `pip install ccxt pandas python-dotenv requests`
 2. Copy `.env.example` to `.env` and tune parameters.
 3. Run one of:
-   - Dry-run: `python3 crypto.py --mode dry-run --persist-state`
+   - Dry-run (spot from `.env`): `python3 crypto.py --mode dry-run --persist-state`
+   - Dry-run (margin override): `python3 crypto.py --mode dry-run --market-type margin --persist-state`
    - Backtest: `python3 crypto.py --mode backtest`
    - GUI dashboard: `streamlit run gui_app.py`
    - Desktop GUI (no extra package): `python3 gui_tk.py` (enable Demo Mode checkbox for faster trade activity)
@@ -41,7 +43,8 @@ Paper-first Binance trading bot using a simple support/resistance strategy in sp
 - Trade rules:
   - Buy when price is near support (`BOT_BUY_NEAR_SUPPORT_PCT`)
   - Sell near resistance (`BOT_SELL_NEAR_RESISTANCE_PCT`) or at TP/SL (`+5%/-3%` defaults)
-- Spot-only long strategy (futures/short disabled).
+  - In `margin` mode, short near resistance and cover near support or at TP/SL.
+- Spot mode is long-only by design. Margin mode enables long and short paper positions.
 - External quote feeds are optional and printed in logs when available:
   - Binance (public)
   - CoinMarketCap (`COINMARKETCAP_API_KEY`)
@@ -51,3 +54,4 @@ Paper-first Binance trading bot using a simple support/resistance strategy in sp
 Example:
 
 - `python3 -u crypto.py --mode dry-run --persist-state`
+- `BOT_MARKET_TYPE=margin BOT_LEVERAGE=2 python3 -u crypto.py --mode dry-run --persist-state`

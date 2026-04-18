@@ -36,7 +36,7 @@ class PaperExecutor:
         self.cash = initial_equity
         self.initial_equity = initial_equity
         self.fee_rate = fee_rate
-        self.leverage = leverage if market_type == "futures" else 1.0
+        self.leverage = leverage if market_type == "margin" else 1.0
         self.position: Position | None = None
         self.realized_pnl = 0.0
         self.trade_log: list[TradeRecord] = []
@@ -166,7 +166,7 @@ class PaperExecutor:
         if signal == "LONG_ENTRY":
             self.open_position("long", qty, price, stop_loss_pct, take_profit_pct, trailing_stop_pct)
             return None
-        if signal == "SHORT_ENTRY" and self.market_type == "futures":
+        if signal == "SHORT_ENTRY" and self.market_type == "margin":
             self.open_position("short", qty, price, stop_loss_pct, take_profit_pct, trailing_stop_pct)
             return None
         if signal == "LONG_EXIT" and self.position and self.position.side == "long":

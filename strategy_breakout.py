@@ -34,7 +34,7 @@ class BreakoutStrategy:
         if not has_position:
             if breakout_up and volume_ok:
                 return "LONG_ENTRY"
-            if market_type == "futures" and breakout_down and volume_ok:
+            if market_type == "margin" and breakout_down and volume_ok:
                 return "SHORT_ENTRY"
             return "HOLD"
 
